@@ -36,5 +36,10 @@ public class LibroService {
         return "libro eliminado";
     }
 
+    public int totalLibrosV1(){
+        return libroRepository.ObtenerLibros().size();
+    }
+    
+
 
 }
